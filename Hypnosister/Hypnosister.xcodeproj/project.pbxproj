@@ -12,7 +12,6 @@
 		C37A50F61E1EE46A002865E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37A50F51E1EE46A002865E6 /* Assets.xcassets */; };
 		C37A50F91E1EE46A002865E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37A50F71E1EE46A002865E6 /* LaunchScreen.storyboard */; };
 		C37A51021E1EE4B4002865E6 /* BNRHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = C37A51011E1EE4B4002865E6 /* BNRHypnosisView.m */; };
-		C37A51051E1EE8D8002865E6 /* TestUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = C37A51041E1EE8D8002865E6 /* TestUIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +24,6 @@
 		C37A50FA1E1EE46A002865E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C37A51001E1EE4B4002865E6 /* BNRHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BNRHypnosisView.h; path = ../BNRHypnosisView.h; sourceTree = "<group>"; };
 		C37A51011E1EE4B4002865E6 /* BNRHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BNRHypnosisView.m; path = ../BNRHypnosisView.m; sourceTree = "<group>"; };
-		C37A51031E1EE8D8002865E6 /* TestUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUIView.h; sourceTree = "<group>"; };
-		C37A51041E1EE8D8002865E6 /* TestUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestUIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +60,6 @@
 				C37A50F31E1EE46A002865E6 /* AppDelegate.m */,
 				C37A51001E1EE4B4002865E6 /* BNRHypnosisView.h */,
 				C37A51011E1EE4B4002865E6 /* BNRHypnosisView.m */,
-				C37A51031E1EE8D8002865E6 /* TestUIView.h */,
-				C37A51041E1EE8D8002865E6 /* TestUIView.m */,
 				C37A50F51E1EE46A002865E6 /* Assets.xcassets */,
 				C37A50F71E1EE46A002865E6 /* LaunchScreen.storyboard */,
 				C37A50FA1E1EE46A002865E6 /* Info.plist */,
@@ -151,7 +146,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C37A51051E1EE8D8002865E6 /* TestUIView.m in Sources */,
 				C37A50F41E1EE46A002865E6 /* AppDelegate.m in Sources */,
 				C37A50F11E1EE46A002865E6 /* main.m in Sources */,
 				C37A51021E1EE4B4002865E6 /* BNRHypnosisView.m in Sources */,
@@ -301,6 +295,7 @@
 				C37A50FF1E1EE46A002865E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
