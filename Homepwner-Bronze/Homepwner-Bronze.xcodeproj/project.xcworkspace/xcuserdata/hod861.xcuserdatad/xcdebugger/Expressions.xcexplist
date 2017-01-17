@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[[BNRItemStore sharedStore] sortedItemsLessThanFifty]count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BNRItemStore sortedItemsMoreThanFifty]:BNRItemStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.itemsLessThanFifty">
+            </PersistentString>
+            <PersistentString
+               value = "self.itemsMoreThanFifty">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BNRItemsViewController tableView:numberOfRowsInSection:]:BNRItemsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[[[BNRItemStore sharedStore] sortedItemsMoreThanFifty]count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BNRItemStore sortedItemsLessThanFifty]:BNRItemStore.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "itemsMoreThanFifty">
+            </PersistentString>
+            <PersistentString
+               value = "itemsLessThanFifty">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BNRItemsViewController tableView:cellForRowAtIndexPath:]:BNRItemsViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
