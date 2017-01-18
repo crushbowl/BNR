@@ -19,12 +19,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     BNRItemsViewController *itemsViewController = [[BNRItemsViewController alloc]init];
-    UINavigationController *navigationVC = [[UINavigationController alloc] initWithRootViewController:itemsViewController];
-    self.window.rootViewController = navigationVC;
+    
+    self.window.rootViewController = itemsViewController;
     
     self.window.backgroundColor = [UIColor lightGrayColor];
+
     [self.window makeKeyAndVisible];
+
     return YES;
 }
 

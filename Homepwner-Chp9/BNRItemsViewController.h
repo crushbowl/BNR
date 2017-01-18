@@ -10,8 +10,6 @@
 
 @interface BNRItemsViewController : UITableViewController
 
-- (IBAction)backgroundTap:(id)sender;
-
 @end
 
 

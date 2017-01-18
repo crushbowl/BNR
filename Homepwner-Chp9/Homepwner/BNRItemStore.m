@@ -27,7 +27,6 @@
 }
 
 - (instancetype)init {
-    
     [NSException raise:@"Singleton"
                 format:@"Use + [BNRItemStore sharedStore]"];
     return nil;

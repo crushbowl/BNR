@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C32E60E51E2FD55000543776 /* BNRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C32E60E31E2FD55000543776 /* BNRDetailViewController.m */; };
-		C32E60E61E2FD55000543776 /* BNRDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32E60E41E2FD55000543776 /* BNRDetailViewController.xib */; };
+		C32E60E11E2EAF3100543776 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32E60E01E2EAF3100543776 /* HeaderView.xib */; };
 		C3507E7F1E2817A7005496FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3507E7E1E2817A7005496FF /* main.m */; };
 		C3507E821E2817A7005496FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3507E811E2817A7005496FF /* AppDelegate.m */; };
 		C3507E841E2817A7005496FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3507E831E2817A7005496FF /* Assets.xcassets */; };
@@ -19,9 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C32E60E21E2FD55000543776 /* BNRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRDetailViewController.h; sourceTree = "<group>"; };
-		C32E60E31E2FD55000543776 /* BNRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRDetailViewController.m; sourceTree = "<group>"; };
-		C32E60E41E2FD55000543776 /* BNRDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRDetailViewController.xib; sourceTree = "<group>"; };
+		C32E60E01E2EAF3100543776 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		C3507E7A1E2817A7005496FF /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3507E7E1E2817A7005496FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3507E801E2817A7005496FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,11 +66,9 @@
 			children = (
 				C3507E801E2817A7005496FF /* AppDelegate.h */,
 				C3507E811E2817A7005496FF /* AppDelegate.m */,
-				C32E60E21E2FD55000543776 /* BNRDetailViewController.h */,
-				C32E60E31E2FD55000543776 /* BNRDetailViewController.m */,
-				C32E60E41E2FD55000543776 /* BNRDetailViewController.xib */,
 				C3507E8E1E281855005496FF /* BNRItemsViewController.h */,
 				C3507E8F1E281855005496FF /* BNRItemsViewController.m */,
+				C32E60E01E2EAF3100543776 /* HeaderView.xib */,
 				C3507E911E281AE9005496FF /* BNRItem.h */,
 				C3507E921E281AE9005496FF /* BNRItem.m */,
 				C3507E941E281C2B005496FF /* BNRItemStore.h */,
@@ -152,7 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32E60E61E2FD55000543776 /* BNRDetailViewController.xib in Resources */,
+				C32E60E11E2EAF3100543776 /* HeaderView.xib in Resources */,
 				C3507E841E2817A7005496FF /* Assets.xcassets in Resources */,
 				C3507E871E2817A7005496FF /* LaunchScreen.storyboard in Resources */,
 			);
@@ -165,7 +160,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32E60E51E2FD55000543776 /* BNRDetailViewController.m in Sources */,
 				C3507E961E281C2B005496FF /* BNRItemStore.m in Sources */,
 				C3507E901E281855005496FF /* BNRItemsViewController.m in Sources */,
 				C3507E931E281AE9005496FF /* BNRItem.m in Sources */,
@@ -284,7 +278,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.Homepwner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,7 +289,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.Homepwner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

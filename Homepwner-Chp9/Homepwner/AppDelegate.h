@@ -1,5 +1,5 @@
 //
-//  BNRItemsViewController.h
+//  AppDelegate.h
 //  Homepwner
 //
 //  Created by Hodge, Janelle on 1/12/17.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BNRItemsViewController : UITableViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-- (IBAction)backgroundTap:(id)sender;
+@property (strong, nonatomic) UIWindow *window;
+
 
 @end
-
 
